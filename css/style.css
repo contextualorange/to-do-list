@@ -174,6 +174,7 @@ h2 {
 
 .calendar {
   align-self: center;
+  position: relative;
 }
 
 .calendar h3 {
@@ -196,4 +197,22 @@ h2 {
 
 #quote div:first-child {
   font-weight: var(--font-semibold);
+}
+
+.bg {
+  position: relative;
+  z-index: 1;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+}
+.bg img {
+  margin-top: -48px;
+  width: 240px;
+  height: 240px;
+}
+
+#clock {
+  position: relative;
+  z-index: 2;
 }
