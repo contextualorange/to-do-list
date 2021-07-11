@@ -205,9 +205,10 @@ h2 {
   width: 240px;
   height: 240px;
   margin: 0 auto;
+  margin-top: -48px;
+  background: white;
 }
 .bg img {
-  margin-top: -48px;
   width: 240px;
   height: 240px;
 }
